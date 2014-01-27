@@ -1,0 +1,2 @@
+
+byte checkbuttons() // checks buttons, returns button number or 100 for no button pressed
