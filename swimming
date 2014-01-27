@@ -10,6 +10,9 @@ LiquidTWI lcd(0);
 SdFat sd;
 SdFile myFile;
 
+int butPins[] = { but1, but2, but3, but4 };
+int butPinCount = 4;
+
 // Pin Setup
 const int aer = 14;
 const int slu = 13;
