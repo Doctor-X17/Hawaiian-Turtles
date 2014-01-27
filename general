@@ -1,6 +1,5 @@
 
 
-
 int startVerify;
 
 // Strings
@@ -8,8 +7,6 @@ int startVerify;
 String switchStr = "1Aer 2Slu 3CWP";
 String cwpStr = "3CWP    ";
 
-int butPins[] = { but1, but2, but3, but4 };
-int butPinCount = 4;
 
 
   /*int startup = EEPROM.read(delayedStartAddr);
