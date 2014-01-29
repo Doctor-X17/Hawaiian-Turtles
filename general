@@ -1,11 +1,5 @@
 
-
 int startVerify;
-
-// Strings
-
-String switchStr = "1Aer 2Slu 3CWP";
-String cwpStr = "3CWP    ";
 
 
 
@@ -36,6 +30,10 @@ String cwpStr = "3CWP    ";
 void loop() {
 
 }
+
+
+  
+  
 // ----------  clean up  ------------
   lcd.setCursor(0,0);
   lcd.print("Filling         ");
@@ -174,17 +172,7 @@ void menu() {
 }
 }
 
-//********************************************
-void menuDelay(int numSecs) { 
-  unsigned long menuDelayCount = numSecs * 5;
-  for (unsigned long xi=0; xi < menuDelayCount; xi++) {
-    boolean menuButtonState = digitalRead(but1);
-    if (menuButtonState == LOW) {
-      menu(); 
-    }
-   delay(200);
-  }
-}
+
 
 //********************************************
 void print8(String string, byte scrnLine) {
