@@ -34,12 +34,7 @@ void loop() {
   
   
 // ----------  clean up  ------------
-  lcd.setCursor(0,0);
-  lcd.print("Filling         ");
-  digitalWrite(slu, HIGH);
-  delay(1000); // 3000
-  digitalWrite(slu, LOW);
-  delay(1800); //180000
+  
  
   boolean switchState = digitalRead(sw1);
   if (switchState == HIGH) {
