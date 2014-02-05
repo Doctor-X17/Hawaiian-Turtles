@@ -50,5 +50,8 @@ void setup() {
 }
 
 void loop() {
-  
+  digitalWrite(aer, HIGH);
+  delay(500);
+  digitalWrite(aer, LOW);
+  delay(500);
 }
